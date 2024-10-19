@@ -1,0 +1,91 @@
+header{
+    background-color: rgba(0, 0, 255, 0.904); /*цвет*/
+    height: 500px; /*высота*/
+    color: rgb(0, 0, 0); /*цвет текста*/
+    font-size: 90px; /*размер текста*/
+    background-image: url("https://cash-droid.ru/wp-content/uploads/2023/04/4-16.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+}
+
+
+
+h1{
+   text-align: center; 
+   font-size: 80px;
+   color: darkblue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-shadow: black 2px 5px 5px;
+}
+
+main{
+background-color: aqua;
+color: brown;
+font-size: 20px;
+height: 100%;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+padding-left: 10px;
+}
+
+
+.block{
+    background: linear-gradient(to left,blue, red);
+}
+
+
+footer{
+background-color: brown;
+color: rgb(220, 100, 20);
+font-size: large;
+height: 100%;
+display: flex;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(202, 8, 8);
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: maroon;
+    float: right;
+    padding: 10px;
+}
+
+
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img{
+    padding-top: 20px;
+}
+
+.body{
+    margin: 0px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
